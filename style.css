@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+    align-content: center;
+    background: linear-gradient(to right, #b69999, #1d325f);
+}
+#contant{
+    width: 306px;
+    margin: 4px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 6px 90px 6px 6px;
+    background-color: lightblue;
+
+}
+
+#scren{
+    height: 10vh;
+    margin-bottom: 10px;
+    border: 2px black solid;
+    padding: 5px;
+    border-radius: 6px 90px 6px 6px;
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    overflow-x:auto ;
+    background-color: aliceblue;
+}
+
+
+.end{
+    display: grid;
+    grid-template-columns:repeat(4 , 1fr);
+    font-size: 25px;
+}
+
+.end button{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.456);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.end button:hover{
+    border: 1px solid black;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.456);
+    background-color: rgba(183, 182, 182, 0.473);
+}
+
+#a11{
+grid-column: 4;
+grid-row: 1;
+}
+
+#a12{
+    grid-column: 4;
+    grid-row: 2;
+}
+
+#a13{
+    grid-column: 4;
+    grid-row: 3;
+}
+
+#a14{
+    grid-column: 3;
+    grid-row: 5;
+}
+
+#a17{
+    grid-column: 4;
+    grid-row: 4/6;
+    justify-items: center;
+}
